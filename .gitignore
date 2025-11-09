@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+android/
+ios/
+web-build/
+
+# Misc
+.DS_Store
+.env*
+dist/
+coverage/
+
+# Editors/IDE
+.vscode/
+.idea/
