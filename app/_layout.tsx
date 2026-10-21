@@ -6,8 +6,8 @@ import { useFrameworkReady } from '@/hooks/useFrameworkReady';
 export default function RootLayout() {
   useFrameworkReady();
 
-  // Gesture handler's GestureDetector / Swipeable only work inside this root view —
-  // without it they throw a render error on device.
+  // Gesture handler's GestureDetector / ReanimatedSwipeable only work inside this root
+  // view — without it they throw a render error on device.
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <Stack screenOptions={{ headerShown: false }}>
